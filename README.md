@@ -1,2 +1,2 @@
-# laravel course
+# laravel course kipu
 ## learning via youtube
