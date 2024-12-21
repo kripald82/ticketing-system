@@ -121,9 +121,6 @@ Route::get('/', function () {
 //----------------------
 $users = DB::table('test')->selectRaw('name as Username,email')->whereRaw('price > ?',5)->get();
 dd($users);
-
-
-
 });
 
 Route::get('/dashboard', function () {
